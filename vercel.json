@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" },
+    { "source": "/", "destination": "/api/status" }
+  ],
+  "functions": {
+    "api/mcp.js": {
+      "maxDuration": 10
+    }
+  }
+}
